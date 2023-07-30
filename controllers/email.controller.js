@@ -9,8 +9,8 @@ const sendMail = async (req = request, res = response) => {
     port: 465,
     secure: true,
     auth: {
-      user: 'rosonoem@gmail.com',
-      pass: 'joqdciqrfinxnnop'
+      user: 'user@gmail.com',
+      pass: 'password'
     }
   };
 
