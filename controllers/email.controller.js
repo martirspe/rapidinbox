@@ -5,12 +5,12 @@ const sendMail = async (req = request, res = response) => {
   const data = req.body;
 
   const config = {
-    host: 'smtp.gmail.com',
+    host: 'mail.alkacorp.com',
     port: 465,
     secure: true,
     auth: {
-      user: 'user@gmail.com',
-      pass: 'password'
+      user: 'admin@alkacorp.com',
+      pass: 'Alka@4510$'
     }
   };
 

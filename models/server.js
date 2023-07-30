@@ -6,7 +6,7 @@ const sendMail = require('../routes/email.route');
 class Server {
     constructor() {
         this.app = express();
-        this.port = process.env.PORT;
+        this.port = process.env.PORT || 8000;
         this.emailPath = '/api/sendmail';
 
         // Middlewares
